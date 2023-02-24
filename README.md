@@ -41,10 +41,10 @@
     <tbody>
         <tr>
             <td>01</td>
-            <td><a href="01">Chat de Msg </a></td>
+            <td><a href="chat-msg">Chat de Msg </a></td>
             <td>22/01/23</td>
             <td align="center">
-            <a href="01"><img width="300px" src="chat-msg/.github/preview.png" /></a></td>
+            <a href="chat-msg"><img width="300px" src="chat-msg/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>02</td>
