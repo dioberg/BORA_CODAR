@@ -48,9 +48,9 @@
         </tr>
         <tr>
             <td>02</td>
-            <td><a href="02">Site melhores blocos de carnaval</a></td>
+            <td><a href="Carnaval">Site melhores blocos de carnaval</a></td>
             <td>24/02/23</td>
-            <td align="center"><a href="02"><img width="300px" src="Carnaval/.github/preview.png" /></a></td>
+            <td align="center"><a href="Carnaval"><img width="300px" src="Carnaval/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>03</td>
