@@ -41,44 +41,44 @@
     <tbody>
         <tr>
             <td>01</td>
-            <td><a href="01">Music Player </a></td>
-            <td>11/01/23</td>
+            <td><a href="01">Chat de Msg </a></td>
+            <td>22/01/23</td>
             <td align="center">
-            <a href="01"><img width="300px" src="chat/.github/preview.jpg" /></a></td>
+            <a href="01"><img width="300px" src="chat-msg/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>02</td>
-            <td><a href="02">melhores blocos de carnaval</a></td>
+            <td><a href="02">Site melhores blocos de carnaval</a></td>
             <td>24/02/23</td>
             <td align="center"><a href="02"><img width="300px" src="Carnaval/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>03</td>
-            <td><a href="03">Botões e Cursores</a></td>
+            <td><a href="03">#</a></td>
             <td>25/01/23</td>
             <td align="center"><a href="03"><img width="300px" src="03/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>04</td>
-            <td><a href="04">Chat</a></td>
+            <td><a href="04">#</a></td>
             <td>01/02/23</td>
             <td align="center"><a href="04"><img width="300px" src="04/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>05</td>
-            <td><a href="05">Calculadora</a></td>
+            <td><a href="05">#</a></td>
             <td>08/02/23</td>
             <td align="center"><a href="05"><img width="300px" src="05/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>06</td>
-            <td><a href="06">Cartão de embarque</a></td>
+            <td><a href="06">#</a></td>
             <td>15/02/23</td>
             <td align="center" ><a href="06"><img width="300px" src="06/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>07</td>
-            <td><a href="07">Site para encontrar seu bloco no carnaval</a></td>
+            <td><a href="07">#</a></td>
             <td>22/02/23</td>
             <td align="center" ><a href="07"><img width="300px" src="07/.github/preview.jpg" /></a></td>
         </tr>
