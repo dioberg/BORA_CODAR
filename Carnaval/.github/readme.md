@@ -1,4 +1,4 @@
-<h1 align="center"> Encontre  os melhores blocos de carnaval de 2023</h1>
+<h1 align="center"> NLW #10 Copa </h1>
 
 <p align="center">
 Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
@@ -16,27 +16,26 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 </p>
 
 <br>
-<p align="center">
-<img alt="#" src="" width="100%">
-</p>
 
+<p align="center">
+  <img alt="calendario da copa" src=".github/preview.jpg" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- JavaScript
 - Git e Github
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK]https://www.figma.com/file/v4dtXgHzcbLAoj7eFaRpkj/%23boraCodar---Desafio-7-(Community)?node-id=102%3A19&t=1iva80LJpVgKJbBI-0. 
 
 ## 💻 Projeto
 
-site de com melhores blocos de carnaval de 2023
+O Calendário da Copa é um projeto que mostra os jogos da Copa de 2022.
 
+## 🔖 Layout
 
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/J1Z33MISC22YZB8wfxiIns/NLW-Copa-Explorer/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
