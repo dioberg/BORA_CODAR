@@ -1,7 +1,7 @@
-<h1 align="center"> CHAT DE MENSAGENS </h1>
+<h1 align="center"> Habits </h1>
 
 <p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
 </p>
 
 <p align="center">
@@ -16,27 +16,29 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 </p>
 
 <br>
-<p align="center">
-<img alt="#" src=".github/preview.png" width="100%">
-</p>
 
+<p align="center">
+  <img src=".github/preview.jpg" alt="#" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- JavaScript
 - Git e Github
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://deluxe-sundae-e8381d.netlify.app/). 
+- Figma
 
 ## 💻 Projeto
 
-Chat de um bate papo 
+O Habits é um app para ajudar a rastrear os hábitos.
 
+- [Visite o projeto online](https://maykbrito.github.io/nlw-setup)
 
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195327109778210238). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
