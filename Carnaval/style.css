@@ -1,0 +1,57 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+:root
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 1.6rem;
+
+}
+
+header
+{
+   
+    min-height: 53.2rem;
+    background-color:#F8F8FF;
+    text-align: center;
+    position: relative;
+}
+
+header::before
+{
+    content: "";
+    
+    background-image: url(./img/bg-top.svg);
+    background-repeat: no-repeat;
+    width: 40.7rem;
+    height: 34.5rem;
+
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+header::after
+{
+    content: "";
+    background-image: url(./img/bg-bottom.svg);
+    width: 41.4rem;
+    height: 33rem;
+
+    position: absolute;
+    right: 0;
+    bottom: -1rem;
+}
