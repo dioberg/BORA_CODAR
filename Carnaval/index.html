@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
     <title>Encontre seu bloco de Carnaval</title>
 
 </head>
 <body>
     <header>
-        <p>Find your block</p>
-        <h1>
-            Encontre os <span>melhores blocos</span> de Carnaval de 2023
-        </h1>
-        <form class="search">
+        <div class="content">
+            <div class="top">
+                <p>Find your block</p>
+                <h1>
+                Encontre os <span>melhores blocos</span> de Carnaval de 2023
+                </h1>
+            </div>
 
-        </form>
+            <form class="search">
+              <div class="search-field">
+                <label class="sr-only" for="name">Pesquise por um nome</label>
+                <i class="ph-magnifying-glass"></i>
+                <input type="text" id="name" name="name" placeholder="Pesquise por nome">
+              </div>  
+              <div class="search-field">
+                
+                <label class="sr-only" for="city">Selecione uma cidade</label>
+                <i class="ph-map-pin"></i>
+                <select name="city" id="city">
+                    <option value="0" selected>Selecione sua cidade</option>
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="rio-de-janeiro">Rio de janiro</option>
+                    <option value="maranhao">Maranhão</option>
+                   
+                </select>
+                <i class="ph-caret-down"></i>
+              </div>
+              <button>Buscar agora</button>
+            </form>
+        </div>
+        
+        
 
-        <h1>diobergue</h1>
+       
     </header>
 </body>
 </html>

@@ -12,12 +12,18 @@
 :root
 {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body
 {
     font-size: 1.6rem;
 
+}
+
+input, select, button
+{
+    font-family: 'Roboto', sans-serif;
 }
 
 header
@@ -27,6 +33,7 @@ header
     background-color:#F8F8FF;
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 
 header::before
@@ -53,5 +60,55 @@ header::after
 
     position: absolute;
     right: 0;
-    bottom: -1rem;
+    bottom: -1.2rem;
+}
+
+header .content 
+{
+    width: fit-content;
+    border: 1px solid red;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+
+    padding: 10rem 0;
+}
+
+header p
+{
+    font-weight: 500;
+    line-height: 160%;
+
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    color: #e45858;
+    max-width: 64.7rem;
+}
+
+header h1 span
+{
+    color: #6246ea;
+}
+
+form{
+    margin-top: 4rem;
+    display: flex;
+    padding: 4rem;
+    gap: 2.4rem;
+
+    background: #ffffff;
+    border: .1rem solid #eaeaea;
+    border-radius: 1rem;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
 }
