@@ -24,6 +24,7 @@ body
 input, select, button
 {
     font-family: 'Roboto', sans-serif;
+    all: unset;
 }
 
 header
@@ -31,9 +32,12 @@ header
    
     min-height: 53.2rem;
     background-color:#F8F8FF;
-    text-align: center;
+    
     position: relative;
     overflow: hidden;
+
+    display: grid;
+    place-content: center;
 }
 
 header::before
@@ -66,12 +70,16 @@ header::after
 header .content 
 {
     width: fit-content;
-    border: 1px solid red;
+  
     position: relative;
     z-index: 1;
     margin: auto;
 
     padding: 10rem 0;
+}
+
+header .content .top{
+    text-align: center;
 }
 
 header p
@@ -84,6 +92,15 @@ header p
     color: #e45858;
     max-width: 64.7rem;
 }
+
+header h1{
+    font-size: 4.8rem;
+    line-height: 125%;
+    color: #121214;
+    max-width: 64.7rem;
+    margin: auto;
+}
+
 
 header h1 span
 {
@@ -111,4 +128,46 @@ form{
     clip: rect(0,0,0,0);
     white-space: nowrap;
     border-width: 0;
+}
+
+input{
+    text-align: left;
+}
+
+.search-field{
+    display: flex;
+    align-items: center ;
+    gap: 1.2rem;
+
+    background: #f4f4ff;
+    border-radius: 5px;
+
+}
+
+.search-field i{
+    font-size: 2.4rem;
+    color: #e45858;
+}
+
+input, select{
+    color: #7c7c8a;
+}
+
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 3.2rem;
+    gap: .8rem;
+
+    background: #6246ea;
+    border-radius: .5rem;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    text-transform: uppercase;
+    color: #ffffff;
+
 }
