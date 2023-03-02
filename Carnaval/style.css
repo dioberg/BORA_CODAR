@@ -32,7 +32,6 @@ header
    
     min-height: 53.2rem;
     background-color:#F8F8FF;
-    
     position: relative;
     overflow: hidden;
 
@@ -69,24 +68,21 @@ header::after
 
 header .content 
 {
+    
     width: fit-content;
   
     position: relative;
     z-index: 1;
-    margin: auto;
-
+    
     padding: 10rem 0;
 }
 
-header .content .top{
-    text-align: center;
-}
 
 header p
 {
+    
     font-weight: 500;
     line-height: 160%;
-
     letter-spacing: .1rem;
     text-transform: uppercase;
     color: #e45858;
@@ -98,7 +94,14 @@ header h1{
     line-height: 125%;
     color: #121214;
     max-width: 64.7rem;
-    margin: auto;
+    margin: 1.8rem auto 0;
+    
+}
+
+header .top{
+    
+   text-align: center;
+  
 }
 
 
@@ -130,9 +133,7 @@ form{
     border-width: 0;
 }
 
-input{
-    text-align: left;
-}
+
 
 .search-field{
     display: flex;
@@ -151,6 +152,24 @@ input{
 
 input, select{
     color: #7c7c8a;
+    min-width: 29rem;
+    
+}
+
+select, .select{
+    position: relative;
+}
+
+select{
+    z-index: 1;
+}
+
+
+.select i.ph-caret-down{
+    position: absolute;
+    right: 1rem;
+    z-index: 0;
+    color: #858793;
 }
 
 form button{
@@ -158,8 +177,7 @@ form button{
     justify-content: center;
     align-items: center;
     padding: 1.2rem 3.2rem;
-    gap: .8rem;
-
+    
     background: #6246ea;
     border-radius: .5rem;
 
@@ -169,5 +187,119 @@ form button{
 
     text-transform: uppercase;
     color: #ffffff;
+    cursor: pointer;
+    transition: background 250ms;
 
+}
+
+
+
+
+
+/* segunda parte do site */
+
+main >.content{
+    
+    max-width: 1216px;
+    margin: 10rem auto;
+}
+
+section.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    text-transform: uppercase;
+    cursor: pointer;
+
+    padding: .4rem 2.4rem;
+}
+
+.primary:hover{
+    background: #553dca;
+    color: #ffffff;
+    
+
+
+}
+
+.secundary{
+    color: #6246ea;
+}
+
+.secundary:hover{
+    background: #6246ea;
+    color: #ffffff;
+}
+
+
+.primary{
+    background: #6246ea;
+    
+    color: #ffffff;
+    transition: background 250ms;
+}
+
+section.top .view{
+    display: flex;
+
+    padding: .8rem;
+    border: .1rem solid #eaeaea;
+    border-radius: .6rem;
+}
+
+
+section.cards{
+    margin-top: .4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3.2rem;
+}
+
+.card{
+    background: #ffffff;
+    max-width: 38.4rem;
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    border-radius: 1rem;
+}
+
+.card .content{
+    display: grid;
+    gap: 1.6rem;
+    padding: 1.6rem;
+}
+
+.card p{
+    opacity: .75;
+}
+
+.card .location{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+
+    opacity: .75;
+}
+
+.card h3 {
+    color: #121214;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.location i{
+    color: #e45858;
+    font-size: 2.4rem;
+    opacity: 1;
 }
