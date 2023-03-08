@@ -54,9 +54,9 @@
         </tr>
         <tr>
             <td>03</td>
-            <td><a href="03">Crônomentro</a></td>
-            <td>25/01/23</td>
-            <td align="center"><a href="03"><img width="300px" src="cronomentro/.github/preview.png" /></a></td>
+            <td><a href="cronomentro">Crônomentro</a></td>
+            <td>08/03/23</td>
+            <td align="center"><a href="cronomentro"><img width="300px" src="cronomentro/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>04</td>
