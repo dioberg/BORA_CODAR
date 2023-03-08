@@ -56,7 +56,7 @@
             <td>03</td>
             <td><a href="cronometro">Cronômetro</a></td>
             <td>08/03/23</td>
-            <td align="center"><a href="cronometro"><img width="300px" src="cronomentro/.github/preview.png" /></a></td>
+            <td align="center"><a href="cronometro"><img width="300px" src="cronometro/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>04</td>
