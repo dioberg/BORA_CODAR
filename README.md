@@ -44,7 +44,7 @@
             <td><a href="chat-msg">Chat de Msg </a></td>
             <td>22/01/23</td>
             <td align="center">
-            <a href="chat-msg"><img width="300px" src="chat-msg/.github/preview.png" /></a></td>
+            <a href="chat-msg"><img width="300px" src="chat-msg/.github/bg.png" /></a></td>
         </tr>
         <tr>
             <td>02</td>
@@ -54,9 +54,9 @@
         </tr>
         <tr>
             <td>03</td>
-            <td><a href="03">#</a></td>
+            <td><a href="03">Crônomentro</a></td>
             <td>25/01/23</td>
-            <td align="center"><a href="03"><img width="300px" src="03/.github/preview.jpg" /></a></td>
+            <td align="center"><a href="03"><img width="300px" src="cronomentro/.github/preview.png" /></a></td>
         </tr>
         <tr>
             <td>04</td>
